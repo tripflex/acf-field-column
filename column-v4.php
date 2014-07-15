@@ -38,11 +38,11 @@ class acf_field_columns extends acf_field
 
 
     // settings
-		/*$this->settings = array(
+		$this->settings = array(
 			'path' => apply_filters('acf/helpers/get_path', __FILE__),
 			'dir' => apply_filters('acf/helpers/get_dir', __FILE__),
 			'version' => '1.0.0'
-		);*/
+		);
 
 	}
 
