@@ -23,9 +23,13 @@
 
 .acf-column .column-pad {
 	margin: 10px;
-	border: 1px solid #DFDFDF;
-	border-radius: 7px;
-	background: #F3F3F3;
+	/*border: 1px solid #DFDFDF;*/
+	/*border-radius: 7px;*/
+	/*background: #F3F3F3;*/
+}
+
+.acf-column .column-pad > .field:not(:first-child) {
+	margin-top: 10px;
 }
 
 .acf-column-reset {
